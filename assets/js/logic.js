@@ -1,6 +1,5 @@
 const themeButton = document.querySelector(".toggle");
 
-
 const readingMode = function () {
   const mode = localStorage.getItem("mode") || "dark";
 
@@ -46,7 +45,6 @@ const handleTheme = function () {
   }
 
   applyMode(newMode);
-  alert("newMode")
 
   saveMode(newMode);
 };
