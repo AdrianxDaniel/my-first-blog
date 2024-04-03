@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deltas Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+
+
 </head>
+
 <body>
-    
+    <header>
+        <button class="toggle">
+            ♢
+        </button>
+    </header>
+
+    <main>
+        <aside>
+            <h2> Deltas Blog</h2>
+        </aside>
+        <section>
+            <h2>Present your thoughts:</h2>
+        </section>
+        <form action="">
+            <label for="username">Username</label>
+            <input name="username" id="username" type="text" />
+
+            <label for="title">Title</label>
+            <input name="title" id="title" type="text" />
+
+            <label for="content">Content</label>
+            <textarea name="content" id="content" type="text" rows="5"></textarea>
+
+            <p id="error">&nbsp;</p>
+
+            <input type="submit" value="Submit" />
+        </form>
+
+
+    </main>
+
+
+
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>
+
 </html>
