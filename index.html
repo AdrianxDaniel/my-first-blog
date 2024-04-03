@@ -13,34 +13,31 @@
 
 <body>
     <header>
-        <button class="toggle">
-            ♢
-        </button>
+        <div>&nbsp;</div>
+        <button class="toggle">♦️</button>
     </header>
-
+    
     <main>
         <aside>
             <h2> Deltas Blog</h2>
         </aside>
         <section>
             <h2>Present your thoughts:</h2>
+            <form>
+                <label for="username">Username</label>
+                <input name="username" id="username" type="text" />
+
+                <label for="title">Title</label>
+                <input name="title" id="title" type="text" />
+
+                <label for="content">Content</label>
+                <textarea name="content" id="content" type="text" rows="5"></textarea>
+
+                <p id="error">&nbsp;</p>
+
+                <input type="submit" value="Submit" />
+            </form>
         </section>
-        <form action="">
-            <label for="username">Username</label>
-            <input name="username" id="username" type="text" />
-
-            <label for="title">Title</label>
-            <input name="title" id="title" type="text" />
-
-            <label for="content">Content</label>
-            <textarea name="content" id="content" type="text" rows="5"></textarea>
-
-            <p id="error">&nbsp;</p>
-
-            <input type="submit" value="Submit" />
-        </form>
-
-
     </main>
 
 
