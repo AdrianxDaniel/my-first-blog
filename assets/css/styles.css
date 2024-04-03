@@ -23,16 +23,16 @@ h6 {
 }
 
 :root {
-  --light-theme: #white;
-  --light-accent: silver;
+  --light-theme: white;
+  --light-accent: grey;
   --dark-theme: black;
-  --dark-accent: grey;
+  --dark-accent: silver;
   --dark-accent-action: green;
   --action: purple;
   --action-accent: violet;
-  --disabled: red;
+  --disabled: silver;
   --error: orange;
-  --circle-color: green;
+  --circle-color: Cyan;
 }
 
 * {

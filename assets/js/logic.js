@@ -18,10 +18,10 @@ const applyMode = function (mode) {
   let icon, circleColor;
 
   if (mode === "light") {
-    icon = "♦️";
-    circleColor = "green";
-  } else {
     icon = "♢";
+    circleColor = "silver";
+  } else {
+    icon = "🫡";
     circleColor = "black";
   }
   themeButton.textContent = icon;
